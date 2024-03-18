@@ -14,6 +14,10 @@ Proof of Concept for a User Interface made with [Angular](https://angular.dev/) 
 ng serve
 ```
 
+## Screen Capture
+
+![Argentina National Football Team](ArgentinaNationalFootballTeam.png)
+
 ## Credits
 
 The solution has been coded using [Visual Studio Code](https://code.visualstudio.com/) with the [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) extension.
