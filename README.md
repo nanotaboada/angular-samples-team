@@ -1,27 +1,23 @@
-# AngularSamplesTeam
+# Sample User Interface with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+## Manifesto
 
-## Development server
+> "Nobody should start to undertake a large project. You start with a small _trivial_ project, and you should never expect it to get large. If you do, you'll just overdesign and generally think it is more important than it likely is at that stage. Or worse, you might be scared away by the sheer size of the work you envision. So start small, and think about the details. Don't think about some big picture and fancy design. If it doesn't solve some fairly immediate need, it's almost certainly over-designed. And don't expect people to jump in and help you. That's not how these things work. You need to get something half-way _useful_ first, and then others will say "hey, that _almost_ works for me", and they'll get involved in the project." — Linus Torvalds
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## About
 
-## Code scaffolding
+Proof of Concept for a User Interface made with [Angular](https://angular.dev/) [v17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b) and the [Angular Material](https://material.angular.io/) UI component library.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Start
 
-## Build
+```shell
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Credits
 
-## Running unit tests
+The solution has been coded using [Visual Studio Code](https://code.visualstudio.com/) with the [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) extension.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Terms
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+All trademarks, registered trademarks, service marks, product names, company names, or logos mentioned on this repository are the property of their respective owners. All usage of such terms herein is for identification purposes only and constitutes neither an endorsement nor a recommendation of those items. Furthermore, the use of such terms is intended to be for educational and informational purposes only.
