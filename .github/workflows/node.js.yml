@@ -13,14 +13,14 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.14.0]
 
     steps:
 
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Setup Node.js
+    - name: Setup Node.js v22.14.0 (LTS)
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
@@ -29,9 +29,6 @@ jobs:
 
     - name: Install Dependencies
       run: npm ci
-
-    # - name: Test
-    # run: npm run test:ci
 
     - name: Compile Application
       run: npm run build
